@@ -1,0 +1,12 @@
+{
+  "name": "otploginresponseresult",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy ./src/worker.js",
+    "start": "wrangler dev ./src/worker.js"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
