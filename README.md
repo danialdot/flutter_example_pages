@@ -63,8 +63,8 @@ python3 script/placeholder_replacement.py
 | --------------------------- | ------------------------------------------------------------------------------------------------ |
 | Splash Background           | [Pawel Czerwinski - Unsplash](https://unsplash.com/photos/6lQDFGOB1iw)                           |
 | Icon Pack                   | [COCO (Community) - Figma](https://www.figma.com/community/file/1091314698854537052)             |
-| Splash/Welcome Illustration | [MISCELLANY TEXTS AND BADGES - Freepik](https://www.flaticon.com/free-icon/welcome-back_5331946) |
-| Avatars Illustration        | [Avatars stickers pack - Freepik](https://www.flaticon.com/stickers-pack/avatars-132)            |
+| Splash/Welcome Illustration | [MISCELLANY TEXTS AND BADGES - Flaticon](https://www.flaticon.com/free-icon/welcome-back_5331946) |
+| Avatars Illustration        | [Avatars stickers pack - Flaticon](https://www.flaticon.com/stickers-pack/avatars-132)            |
 
 ## 📜 License
 
