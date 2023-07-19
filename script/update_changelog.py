@@ -24,7 +24,6 @@ All notable changes to this project will be documented in this file.
 ---
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
-[cridit](https://gist.github.com/juampynr/4c18214a8eb554084e21d6e288a18a2c)
 
 #### Reference: [Sample CHANGELOG](https://gist.github.com/juampynr/4c18214a8eb554084e21d6e288a18a2c)
 """
