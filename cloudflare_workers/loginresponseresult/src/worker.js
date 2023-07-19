@@ -52,7 +52,7 @@ async function handleRequest(request) {
         refreshToken: refreshToken,
       });
 
-      const response = new LoginModelResponse(200, null, Date.now(), responseResult);
+      const response = new LoginModelResponse(200, {}, Date.now(), responseResult);
       return response;
     } else {
       // User authentication failed

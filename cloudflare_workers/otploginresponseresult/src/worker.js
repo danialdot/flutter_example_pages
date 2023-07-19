@@ -79,7 +79,7 @@ async function handleRequest(request) {
       message: 'OTP sent successfully',
     });
 
-    const response = new OtpModelResponse(200, null, Date.now(), responseResult);
+    const response = new OtpModelResponse(200, {}, Date.now(), responseResult);
     return response;
   }
 
@@ -101,7 +101,7 @@ async function handleRequest(request) {
       refreshToken: refreshToken,
     });
 
-    const response = new LoginModelResponse(200, null, Date.now(), responseResult);
+    const response = new LoginModelResponse(200, {}, Date.now(), responseResult);
     return response;
   }
 
