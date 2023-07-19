@@ -1,0 +1,22 @@
+{
+  "status": 200,
+  "error": null,
+  "timestamp": 1689775065949,
+  "result": {
+    "versions": [
+      {
+        "text": "Version 1.0.1",
+        "version": "1.0.1",
+        "image": "updated.png",
+        "forced": false
+      },
+      {
+        "text": "Version 1.0.2",
+        "version": "1.0.2",
+        "image": "updated.png",
+        "forced": true
+      }
+    ],
+    "updateIsNeeded": true
+  }
+}
