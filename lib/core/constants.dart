@@ -9,6 +9,7 @@ class AppText {
   static const String splashWelcome = "welcome to $appName";
   static const String navigatorPageTitle = "navigator title";
   static const String profilePageTitle = "profile title";
+  static const String circularAppbarPageTitle = "circular appbar title";
   static const String update = "update";
   static const String later = "later";
 }

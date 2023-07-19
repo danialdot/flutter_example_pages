@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_example_pages/core/constants.dart';
+import 'package:flutter_example_pages/model/local/navigation_item.dart';
+import 'package:flutter_example_pages/view/page/profile/circular_appbar.dart';
 import 'package:flutter_example_pages/view/page/profile/profile.dart';
 import 'package:flutter_example_pages/view/widget/basic_card_list_item.dart';
 
@@ -10,14 +12,22 @@ class NavigatorPage extends StatefulWidget {
   State<NavigatorPage> createState() => _NavigatorPageState();
 }
 
-enum SelectableTabs { profile }
-
-List navigatorPages = const [ProfilePage()];
-
-List<Icon> navigatorPageIcons = const [
-  Icon(
-    Icons.account_circle_rounded,
-    size: 32,
+List<CustomNavigationItem> navigatorItems = [
+  CustomNavigationItem(
+    icon: const Icon(
+      Icons.circle_outlined,
+      size: 32,
+    ),
+    page: const CircularAppbarPage(),
+    title: AppText.circularAppbarPageTitle,
+  ),
+  CustomNavigationItem(
+    icon: const Icon(
+      Icons.account_circle_rounded,
+      size: 32,
+    ),
+    page: const ProfilePage(),
+    title: AppText.profilePageTitle,
   ),
 ];
 
@@ -60,14 +70,14 @@ class _NavigatorPageState extends State<NavigatorPage> {
     return ListView.builder(
       scrollDirection: Axis.vertical,
       padding: EdgeInsets.zero,
-      itemCount: navigatorPages.length,
+      itemCount: navigatorItems.length,
       itemBuilder: (context, index) {
         return GestureDetector(
           onTap: () {
             Navigator.push(
               context,
               MaterialPageRoute(
-                builder: (context) => navigatorPages[index],
+                builder: (context) => navigatorItems[index].page,
               ),
             );
           },
@@ -79,8 +89,8 @@ class _NavigatorPageState extends State<NavigatorPage> {
             ),
             child: basicCardListItem(
               context: context,
-              title: index.toString(),
-              icon: navigatorPageIcons[index],
+              title: navigatorItems[index].title,
+              icon: navigatorItems[index].icon,
             ),
           ),
         );

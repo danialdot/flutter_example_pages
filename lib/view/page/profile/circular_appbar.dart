@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_example_pages/core/constants.dart';
 
-class ProfilePage extends StatefulWidget {
-  const ProfilePage({Key? key}) : super(key: key);
+class CircularAppbarPage extends StatefulWidget {
+  const CircularAppbarPage({Key? key}) : super(key: key);
 
   @override
-  State<ProfilePage> createState() => _ProfilePageState();
+  State<CircularAppbarPage> createState() => _CircularAppbarPageState();
 }
 
-class _ProfilePageState extends State<ProfilePage> {
+class _CircularAppbarPageState extends State<CircularAppbarPage> {
   @override
   void initState() {
     super.initState();
@@ -19,6 +19,15 @@ class _ProfilePageState extends State<ProfilePage> {
     return Scaffold(
       body: Stack(
         children: [
+          Center(
+            child: CustomPaint(
+              size: Size(
+                MediaQuery.of(context).size.width * 1.5,
+                MediaQuery.of(context).size.height * 0.8,
+              ),
+              painter: CirclePainter(),
+            ),
+          ),
           Padding(
             padding: EdgeInsets.symmetric(
               vertical: MediaQuery.of(context).size.height * 0.04,
@@ -35,15 +44,15 @@ class _ProfilePageState extends State<ProfilePage> {
                   child: Icon(
                     Icons.arrow_back_ios_rounded,
                     size: MediaQuery.of(context).size.width * 0.08,
-                    color: AppColor.customBlackText,
+                    color: AppColor.customWhiteIcon,
                   ),
                 ),
                 Text(
-                  AppText.profilePageTitle,
+                  AppText.circularAppbarPageTitle,
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: MediaQuery.of(context).size.width * 0.08,
-                    color: AppColor.customBlackText,
+                    color: AppColor.customWhiteText,
                   ),
                 ),
                 SizedBox(
