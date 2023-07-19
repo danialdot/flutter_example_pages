@@ -64,7 +64,6 @@ class _NavigatorPageState extends State<NavigatorPage> {
       itemBuilder: (context, index) {
         return GestureDetector(
           onTap: () {
-            Navigator.of(context).pop();
             Navigator.push(
               context,
               MaterialPageRoute(
