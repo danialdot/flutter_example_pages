@@ -2,6 +2,9 @@
 
 This project showcases various pages implemented using Flutter, serving as a learning resource and a source of fun experimentation.
 
+## 📝 Changelog [![Changelog](https://img.shields.io/badge/Changelog-Check_it_out-blue.svg)](CHANGELOG.md)
+All notable changes to this project will be documented in this file.
+
 ## 🏁 Getting Started
 
 To get this Flutter app up and running, follow these simple steps:
@@ -43,7 +46,7 @@ Add the following line to the file/s `./android/app/src/*/AndroidManifest.xml`
     <uses-permission android:name="android.permission.INTERNET" />
 ```
 
-## 🔄 Scripts
+## 🔄 Scripts [![Scripts](https://img.shields.io/badge/Scripts-Check_it_out-blue.svg)](./script/)
 
 ### 1. 📄 Automated Placeholder Replacement Script
 
@@ -57,12 +60,22 @@ python3 script/placeholder_replacement.py
 
 > make sure to replace `AppUrl.contactUs` and `AppUrl.termsOfCondition` in `lib/core/constants.dart`
 
+### 2. 📝 Automated Changelog Update Version Info Script
+
+This repository contains a Python script that automates the process of adding new version info to `CHANGELOG.md` file. It simplifies customization by asking for user input and updating the file accordingly.
+
+Run with:
+
+```python
+python3 script/update_changelog.py
+```
+
 ## 🖼️ Assets Credits
 
-| Asset                       | Source                                                                                           |
-| --------------------------- | ------------------------------------------------------------------------------------------------ |
-| Splash Background           | [Pawel Czerwinski - Unsplash](https://unsplash.com/photos/6lQDFGOB1iw)                           |
-| Icon Pack                   | [COCO (Community) - Figma](https://www.figma.com/community/file/1091314698854537052)             |
+| Asset                       | Source                                                                                            |
+| --------------------------- | ------------------------------------------------------------------------------------------------- |
+| Splash Background           | [Pawel Czerwinski - Unsplash](https://unsplash.com/photos/6lQDFGOB1iw)                            |
+| Icon Pack                   | [COCO (Community) - Figma](https://www.figma.com/community/file/1091314698854537052)              |
 | Splash/Welcome Illustration | [MISCELLANY TEXTS AND BADGES - Flaticon](https://www.flaticon.com/free-icon/welcome-back_5331946) |
 | Avatars Illustration        | [Avatars stickers pack - Flaticon](https://www.flaticon.com/stickers-pack/avatars-132)            |
 
