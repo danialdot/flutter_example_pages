@@ -3,6 +3,7 @@
 This project showcases various pages implemented using Flutter, serving as a learning resource and a source of fun experimentation.
 
 ## 📝 Changelog [![Changelog](https://img.shields.io/badge/Changelog-Check_it_out-blue.svg)](CHANGELOG.md)
+
 All notable changes to this project will be documented in this file.
 
 ## 🏁 Getting Started
@@ -72,12 +73,12 @@ python3 script/update_changelog.py
 
 ## 🖼️ Assets Credits
 
-| Asset                       | Source                                                                                            |
-| --------------------------- | ------------------------------------------------------------------------------------------------- |
-| Splash Background           | [Pawel Czerwinski - Unsplash](https://unsplash.com/photos/6lQDFGOB1iw)                            |
-| Icon Pack                   | [COCO (Community) - Figma](https://www.figma.com/community/file/1091314698854537052)              |
-| Splash/Welcome Illustration | [MISCELLANY TEXTS AND BADGES - Flaticon](https://www.flaticon.com/free-icon/welcome-back_5331946) |
-| Avatars Illustration        | [Avatars stickers pack - Flaticon](https://www.flaticon.com/stickers-pack/avatars-132)            |
+| Asset                | Source                                                                                 |
+| -------------------- | -------------------------------------------------------------------------------------- |
+| Splash Background    | [Pawel Czerwinski - Unsplash](https://unsplash.com/photos/6lQDFGOB1iw)                 |
+| Icon Pack            | [COCO (Community) - Figma](https://www.figma.com/community/file/1091314698854537052)   |
+| Illustration         | [MISCELLANY TEXTS AND BADGES - Flaticon](https://www.flaticon.com/authors/freepik)     |
+| Avatars Illustration | [Avatars stickers pack - Flaticon](https://www.flaticon.com/stickers-pack/avatars-132) |
 
 ## 📜 License
 
