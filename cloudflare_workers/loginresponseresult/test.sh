@@ -22,7 +22,7 @@ response_login=$(curl --insecure \
     "username" : "danial",
     "password" : "password"
 }' \
-   'https://loginresponseresult.'"$email_prefix"'.workers.dev/api/v1/auth/login')
+  'https://loginresponseresult.'"$email_prefix"'.workers.dev/api/v1/auth/login')
 
 echo "$response_login"
 
